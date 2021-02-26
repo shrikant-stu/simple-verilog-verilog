@@ -1,4 +1,4 @@
-# simple-buffer-verilog
+# simple-verilog-verilog
 Hope you had read my blog at <blog_address>
 If not, then np! A simpe knowledge of opensource tools like icarus and gtkwave would help.
 
