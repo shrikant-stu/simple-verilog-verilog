@@ -35,6 +35,7 @@ To do this, type the following command
 >> vvp simple_buffer_tb.vvp
 
 Notice: The following message will appear on the terminal-
+
 VCD info: dumpfile simple_buffer_tb.vcd opened for output.
 Test complete
 
