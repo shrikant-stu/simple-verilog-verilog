@@ -17,6 +17,7 @@ You have two files of use in your desired location.
 Now, you can move ahead with simulating the verilog code using Icarus.
 
 STEP 1: GO TO THE DIRECTORY LOCATION IN A TERMINAL
+
 In VSCode, open a new terminal from Terminal menubar.
 OR Open command prompt with pressing Start button and type "cmd" , press Enter.
 Go to your working directory using cd command as below:
@@ -25,6 +26,7 @@ Go to your working directory using cd command as below:
 Note: you can get the directory address by Right-clicking and going to properties.
 
 STEP 2: SIMULATE THE TESTBENCH
+
 Type the following command
 >> iverilog -o simple_buffer_tb.vvp simple_buffer_tb.v
 
@@ -42,6 +44,7 @@ Test complete
 Also, you will notice a new file is created in the same directory by the name "simple_buffer_tb.vcd"
 
 STEP 3: OPEN WAVEFORMS IN GTKWAVE
+
 Now, the waveforms have been created, you just have to open them using a waveform viewer.
 This will be pretty user-friendly.
 Type the following command to open the waveform containing file:
