@@ -2,13 +2,16 @@
 Hope you had read my blog at <blog_address>
 If not, then np! A simpe knowledge of opensource tools like icarus and gtkwave would help.
 
-This repository is for non-git users.
+THIS REPOSITORY IS FOR NOT-GIT USERS ONLY!
+one can have a read however you want.
 You can download and unpiz this repository by click the green button on this reposity, somewhere on the right side of your screen.
 
 Go to your work directory/folder where you want your first verilog project to be stored.
 If you have not created one, I suggest a relatable name like X:\verilog_projects\
 
-# READ BELOW AFTER YOU DOWNLOAD AND UNZIP THIS REPOSITORY:
+Copy the downloaded zip file and unzip there.
+
+# READ BELOW AFTER you download and unzip this repository
 
 You have two files of use in your desired location.
 Now, you can move ahead with simulating the verilog code using Icarus.
