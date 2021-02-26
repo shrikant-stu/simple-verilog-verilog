@@ -2,6 +2,9 @@
 Hope you had read my blog at <blog_address>
 If not, then np! A simpe knowledge of opensource tools like icarus and gtkwave would help.
 
+This repository is for non-git users.
+You can download and unpiz this repository by click the green button on this reposity, somewhere on the right side of your screen.
+
 Go to your work directory/folder where you want your first verilog project to be stored.
 If you have not created one, I suggest a relatable name like X:\verilog_projects\buffer\
 
