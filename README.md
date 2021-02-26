@@ -3,7 +3,7 @@ Hope you had read my blog at <blog_address>
 If not, then np! A simpe knowledge of opensource tools like icarus and gtkwave would help.
 
 THIS REPOSITORY IS FOR NOT-GIT USERS ONLY!
-one can have a read however you want.
+
 You can download and unpiz this repository by click the green button on this reposity, somewhere on the right side of your screen.
 
 Go to your work directory/folder where you want your first verilog project to be stored.
