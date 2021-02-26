@@ -1,9 +1,8 @@
 THIS REPOSITORY IS FOR NOT-GIT USERS!
 # simple-verilog-verilog
-Hope you had read my blog at <blog_address>
-If not, then np! A simpe knowledge of opensource tools like icarus and gtkwave would help.
+Hope you had read my blog at https://theunpaidintern.blogspot.com/2021/02/how-to-have-your-own-verilog-test-setup.html
 
-
+If not, then NP! A simpe knowledge of opensource tools like icarus and gtkwave would help.
 
 You can download and unpiz this repository by click the green button on this reposity, somewhere on the right side of your screen.
 
