@@ -19,7 +19,9 @@ File you must have in your working directory
 * simple_buffer_tb.v
 
 Step 1: Open command prompt
-Press Window buttom / type 'cmd' / Press Enter
+* Press Window buttom
+* type 'cmd'
+* Press Enter
 
 Step 2: Change to your working directory
 cd <directory_path_here>
