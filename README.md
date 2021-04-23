@@ -31,9 +31,9 @@ iverilog -o simple_buffer_tb.vvp simple_buffer_tb.v
 Step 4: Run test with vvp command
 vvp simple_buffer_tb.vvp
 
---The following message will appear on the terminal
---VCD info: dumpfile simple_buffer_tb.vcd opened for output.
---Test complete
+The following message will appear on the terminal
+"VCD info: dumpfile simple_buffer_tb.vcd opened for output.
+Test complete"
 
 New file created: 'simple_buffer_tb.vcd'
 
