@@ -2,57 +2,47 @@ THIS REPOSITORY IS FOR NOT-GIT USERS!
 # simple-verilog-verilog
 Hope you had read my blog at https://theunpaidintern.blogspot.com/2021/02/how-to-have-your-own-verilog-test-setup.html
 
-If not, then NP! A simpe knowledge of opensource tools like icarus and gtkwave would help.
+Tools needed for this simulation are:
+1. icarus verilog
+2. gtkwave
 
-You can download and unpiz this repository by click the green button on this reposity, somewhere on the right side of your screen.
+More info at the above blog.
+Download this repository at your local machine by clicking on Green button.
+Do this by clicking on the Green button above and save at a specific location where you want to make simulation file.
 
-Go to your work directory/folder where you want your first verilog project to be stored.
-If you have not created one, I suggest a relatable name like X:\verilog_projects\
-
-Copy the downloaded zip file and unzip there.
+Your location may look like X:\verilog_projects\
 
 # READ BELOW AFTER you download and unzip this repository
 
-You have two files of use in your desired location.
-Now, you can move ahead with simulating the verilog code using Icarus.
+File you must have in your working directory
+> simple_buffer.v
+> simple_buffer_tb.v
 
-STEP 1: GO TO THE DIRECTORY LOCATION IN A TERMINAL
+Step 1: Open command prompt
+Press Window buttom / type 'cmd' / Press Enter
 
-In VSCode, open a new terminal from Terminal menubar.
-OR Open command prompt with pressing Start button and type "cmd" , press Enter.
-Go to your working directory using cd command as below:
->> cd <dir_address>
+Step 2: Change to your working directory
+cd <directory_path_here>
 
-Note: you can get the directory address by Right-clicking and going to properties.
+Step 3: Simulate the testbench
+iverilog -o simple_buffer_tb.vvp simple_buffer_tb.v
+--> New file created: 'simple_buffer_tb.vvp'
 
-STEP 2: SIMULATE THE TESTBENCH
+Step 4: Run test with vvp command
+vvp simple_buffer_tb.vvp
 
-Type the following command
->> iverilog -o simple_buffer_tb.vvp simple_buffer_tb.v
+--The following message will appear on the terminal
+--VCD info: dumpfile simple_buffer_tb.vcd opened for output.
+--Test complete
 
-This will create a new intermediate file that will be used by vvp.
-Check in the folder you will find a new file named "simple_buffer_tb.vvp"
-vvp is an in-built function in verilog to create waveforms
-To do this, type the following command
->> vvp simple_buffer_tb.vvp
+New file created: 'simple_buffer_tb.vcd'
 
-Notice: The following message will appear on the terminal-
+Step 5: Open waveforms using gtkwave
+gtkwave simple_buffer_tb.vcd
 
-VCD info: dumpfile simple_buffer_tb.vcd opened for output.
-Test complete
-
-Also, you will notice a new file is created in the same directory by the name "simple_buffer_tb.vcd"
-
-STEP 3: OPEN WAVEFORMS IN GTKWAVE
-
-Now, the waveforms have been created, you just have to open them using a waveform viewer.
-This will be pretty user-friendly.
-Type the following command to open the waveform containing file:
->> gtkwave simple_buffer_tb.vcd
-
-Click on the nodule simple_buffer_tb near the top left corner in GTKwave window
-Hold Shift button, and click on reg A and wire B that appear below under Type|Signal bar
-Click on "Append" button, on the bottom left corner and your waveforms will appear on the black space of the window.
+Near the top left corner, click on the nodule simple_buffer_tb 
+Hold Shift button, and click on reg A and wire B
+Click on "Append" button
 
 If you have any query, or face any issue related to this,
 kindly drop me a mail at shrikant.stu@gmail.com
