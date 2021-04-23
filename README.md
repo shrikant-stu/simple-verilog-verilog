@@ -24,14 +24,14 @@ Step 1: Open command prompt
 * Press Enter
 
 Step 2: Change to your working directory
-cd <directory_path_here>
+* cd <directory_path_here>
 
 Step 3: Simulate the testbench
-iverilog -o simple_buffer_tb.vvp simple_buffer_tb.v
---> New file created: 'simple_buffer_tb.vvp'
+* iverilog -o simple_buffer_tb.vvp simple_buffer_tb.v
+* New file created: 'simple_buffer_tb.vvp'
 
 Step 4: Run test with vvp command
-vvp simple_buffer_tb.vvp
+* vvp simple_buffer_tb.vvp
 
 The following message will appear on the terminal
 "VCD info: dumpfile simple_buffer_tb.vcd opened for output.
@@ -40,7 +40,7 @@ Test complete"
 New file created: 'simple_buffer_tb.vcd'
 
 Step 5: Open waveforms using gtkwave
-gtkwave simple_buffer_tb.vcd
+* gtkwave simple_buffer_tb.vcd
 
 Near the top left corner, click on the nodule simple_buffer_tb 
 Hold Shift button, and click on reg A and wire B
