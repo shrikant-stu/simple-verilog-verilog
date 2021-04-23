@@ -15,8 +15,8 @@ Your location may look like X:\verilog_projects\
 # READ BELOW AFTER you download and unzip this repository
 
 File you must have in your working directory
-> simple_buffer.v
-> simple_buffer_tb.v
+simple_buffer.v
+simple_buffer_tb.v
 
 Step 1: Open command prompt
 Press Window buttom / type 'cmd' / Press Enter
