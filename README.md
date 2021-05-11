@@ -42,7 +42,7 @@ New file created: 'simple_buffer_tb.vcd'
 Step 5: Open waveforms using gtkwave
 * gtkwave simple_buffer_tb.vcd
 
-Near the top left corner, click on the nodule simple_buffer_tb 
+Near the top left corner, click on the module simple_buffer_tb 
 Hold Shift button, and click on reg A and wire B
 Click on "Append" button
 
